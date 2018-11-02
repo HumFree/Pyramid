@@ -1,10 +1,5 @@
 #! /usr/bin/python3.6
 
-#x = "Happy Birthday!"
-#upper = x.upper()
-#lower = x.lower()
-#print(upper,lower)
-
 """ A program to figure out how often they would need to cut & lay a block
 during the contruction of the great pyramid. """
 # It took 20 years to build with 2,300,000 blocks
