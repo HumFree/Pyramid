@@ -4,7 +4,7 @@
 during the contruction of the Great Pyramid. """
 # It took 20 years to build with 2,300,000 blocks
 # find the seconds in a year multiplied by 20
-#and divide it by 2,300,000
+# and divide it by 2,300,000
 
 sec_in_minute = 60
 minutes_in_hour = 60
