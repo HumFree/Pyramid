@@ -16,6 +16,7 @@ minutes_in_hour = 60
 hours_in_day = 24
 days_in_year = 365
 blocks = 2300000
+
 sec_in_year = sec_in_minute * minutes_in_hour * hours_in_day * days_in_year
 total_secs = sec_in_year * 20
 total_time = total_secs / blocks / 60
