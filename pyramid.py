@@ -7,11 +7,10 @@ during the contruction of the Great Pyramid. """
 sec_in_minute = 60
 minutes_in_hour = 60
 hours_in_day = 24
-days_in_year = 365
+days_in_year = 365.25
 blocks = 2300000
 sec_in_year = sec_in_minute * minutes_in_hour * hours_in_day * days_in_year
 total_secs = sec_in_year * 20
-total_time = blocks / total_secs / 60
-total_time = round(total_time)
+total_time = blocks / total_secs
 time_it_takes = "It takes {} minutes to cut & lay one block to build the Great Pyramid."
 print(time_it_takes.format(total_time))
