@@ -9,10 +9,17 @@ minutes_in_hour = 60
 hours_in_day = 24
 days_in_year = 365.25
 blocks = 2300000
+<<<<<<< HEAD
 
 min_in_year = (minutes_in_hour * hours_in_day * days_in_year)
 total_secs = min_in_year * 20
 total_time = blocks / total_secs
 time_it_takes = "It takes {} minutes to cut & lay one block to build the Great Pyramid."
+=======
+min_in_year = (minutes_in_hour * hours_in_day * days_in_year
+total_secs = min_in_year * 20
+total_time = blocks / total_secs
+time_it_takes = "It takes {} seconds to cut & lay one block to build the Great Pyramid."
+>>>>>>> a2afb16675f31ecef70b56d5f19f56616e84287a
 print(time_it_takes.format(total_time))
 

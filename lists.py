@@ -1,5 +1,5 @@
 #! /usr/bin/python3.6
-
+"""
 # A list called jackson that takes out indexs 3,4,5
 jackson = [1, 2, 3,"A", "B", "C", "Do", "Rei", "Mi", "You", "and", "Me"]
 #print(jackson[3:6])
@@ -51,3 +51,31 @@ print(full_name)
 
 address = house_number + " " + street_name + " " + street_ext + " " + city + " " + state
 print(address)
+
+"""
+"""
+matrix = [[0, 1], [2, 3], [4, 5], [6, 7], [8, 9]]
+#print(matrix[4])
+
+zeros = [0] * 100
+print(zeros)
+
+#exes = ["M","I","A"] * 200
+#print(exes)
+
+#numbers = list(range(21))
+#print(numbers)
+
+#skip_by_two = list(range(0, 1001, 3))
+#print(skip_by_two)
+
+names = list("cat", "dog")
+print(names)
+"""
+
+word_list = [["one"], ["two"], ["three"]]
+
+user_pick = input("pick a number? ").strip().lower()
+
+if user_pick in word_list:
+    print("We got it")
